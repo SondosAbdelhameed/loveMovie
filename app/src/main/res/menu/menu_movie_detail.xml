@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.heroshe.lovemovies.MovieDetailActivity">
+    <item
+        android:id="@+id/action_settings_popularity"
+        android:orderInCategory="100"
+        android:title="@string/action_settings_popularity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings_rating"
+        android:orderInCategory="100"
+        android:title="@string/action_settings_rating"
+        app:showAsAction="never" />
+</menu>

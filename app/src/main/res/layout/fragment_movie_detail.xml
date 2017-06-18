@@ -1,0 +1,126 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heroshe.lovemovies.MovieDetailActivityFragment"
+    tools:showIn="@layout/activity_movie_detail"
+    android:id="@+id/movie_detail"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+    <TextView
+        android:id="@+id/title"
+        android:text="efdjnfnjdfj"
+        android:padding="8dp"
+        android:textSize="22sp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="180dp"
+            android:src="@drawable/video"
+            android:id="@+id/poster"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/vote_average"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/date"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/starStyle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:id="@+id/favo"/>
+
+
+        </LinearLayout>
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/overView"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:scrollbars="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+        <TextView
+            android:text="Trailers"
+            android:textSize="22sp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="12dp"
+            android:orientation="vertical"
+            android:id="@+id/trailersList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green">
+
+        <TextView
+            android:text="Reviews"
+            android:textSize="22sp"
+            android:layout_margin="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="12dp"
+            android:orientation="vertical"
+            android:id="@+id/reviewsList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+</ScrollView>

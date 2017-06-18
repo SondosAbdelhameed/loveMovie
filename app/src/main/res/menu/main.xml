@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.heroshe.lovemovies.MainActivity">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/action_settings_popularity"
+        android:orderInCategory="100"
+        android:title="@string/action_settings_popularity"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_settings_rating"
+        android:orderInCategory="200"
+        android:title="@string/action_settings_rating"
+        app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_settings_favorite"
+            android:orderInCategory="200"
+            android:title="@string/action_settings_favorite"
+            app:showAsAction="never" />
+    </group>
+</menu>
